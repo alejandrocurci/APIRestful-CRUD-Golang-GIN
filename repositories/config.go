@@ -1,12 +1,8 @@
-package config
+package repositories
 
 import (
 	"fmt"
-
-	"github.com/jinzhu/gorm"
 )
-
-var DB *gorm.DB
 
 type DBConfig struct {
 	Host     string
